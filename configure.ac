@@ -31,7 +31,7 @@ AC_FUNC_STRERROR_R
 AC_CONFIG_FILES([Makefile sqlite3.pc])
 BUILD_CFLAGS=
 AC_SUBST(BUILD_CFLAGS)
-
+AC_CONFIG_MACRO_DIR([/usr/share/aclocal/])
 #-------------------------------------------------------------------------
 # Two options to enable readline compatible libraries: 
 #
